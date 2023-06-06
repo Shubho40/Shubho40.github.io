@@ -1,7 +1,7 @@
 *{margin: 0; padding: 0; box-sizing: border-box;
 font-family: 'Poppins', sans-serif;}
 
-/* header css start */
+/* ............... header css start ............*/
 
 .header{
 	width: 100%;
@@ -98,9 +98,11 @@ p{
 	color: #fff;
 }
 
-/*header css end    */
+/* .................  header css end  ..................   */
 
-/*three header extra div css start*/
+
+
+/* ..............three header extra div css start .............*/
 
 .header-extradiv{
 	width: 100%;
@@ -115,7 +117,7 @@ p{
 	border-radius: 3px;
 	transition: 0.3s;
 }
-.extradiv h2{
+.extradiv h2,.serviceenterdiv h2{
 	font-size: 0.9rem;
 	margin: 20px 0 15px 0;
 	font-weight: bold;
@@ -128,3 +130,144 @@ p{
 	transform: translateY(-20px);
 
 }
+
+/* ..............three header extra div css end .............*/
+
+
+/* ..............Service div css start .............*/
+.serviceoffers{
+	background: #f7f7f9;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+.headings{
+	margin-bottom: 50px;
+}
+.headings h1{
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.names h1{
+	color: #2e2e2e;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.service-icons{
+	position: relative;
+}
+.service-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.progress{
+	height: 0.9rem!important;
+	margin-bottom: 25px!important;
+	background: #606060;
+}
+i{
+	color: #2fccd0;
+}
+
+/* ..............Service div css end .............*/
+
+/* ..............Award and work div css start .............*/
+
+.projectwork{
+	font-size: 2rem;
+	text-align: center;
+
+}
+
+/* ..............Award and work div css end .............*/
+
+/* ..............Prising css end .............*/
+
+.prising{
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+	position: relative;
+}
+.prising:before{
+	content: "";
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	z-index: -1;
+	background: linear-gradient(160deg,#16c9f6 55%,#fff 0%);
+
+
+}
+
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+.card{
+	transition: 0.4s ease!important;
+}
+.card:hover{
+	transform: translateY(-20px);
+}
+.card-header{
+	font-size: 1.6rem!important;
+	font-weight: bold!important;
+	background: #fff!important;
+	padding: 25px 9px!important;
+}
+.card-body{
+	padding: 30px 0!important;
+}
+.card-body li{
+	margin: 10px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #606060;
+
+}
+.card-footer{
+	background: #fff!important;
+	padding: 30px 0!important;
+}
+.card-footer a{
+	border: 1px solid #16c9f6;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #606060!important;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	
+}
+.card:hover .card-footer a{
+	
+	background: #50d1c0;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+.card:hover .card-header, .card:hover .money{
+	color: #50d1c0;
+}
+.card-2{
+	transform: translateY(-20px);
+
+}
+
+
+
+
+/* ..............Prising div css end .............*/
+
+
